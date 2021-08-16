@@ -1,0 +1,81 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-rose: #E1306C;
+  --color-secondary: #efefef;
+  --color-brown: #555; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/../fonts/OpenSans-Refular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--color-white); }
+
+img {
+  width: 250px;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.is-outer {
+  position: relative !important;
+  left: -9999px !important; }
+
+.site-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.is-hidden {
+  display: none !important; }
+
+.for-mobile {
+  display: none; }
+  @media (max-width: 768px) {
+    .for-mobile {
+      display: block; } }
+
+.error {
+  color: red; }
+
+.btn-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none; }
+
+.footer {
+  margin-top: auto; }
+
+.main {
+  padding-top: 120px; }
+
+/*# sourceMappingURL=global.css.map */

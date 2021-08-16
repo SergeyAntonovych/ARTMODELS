@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#111111">
+  <title>ArtModels</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Иконки соц.сетей -->
+	<script src="https://kit.fontawesome.com/eb0af0ce39.js" crossorigin="anonymous"></script>
+	<!--// Иконки соц.сетей  //-->
+
+</head>
+
+<body>
+	<div class="site-container">
+		
+<header class="header">
+  <div class="container header-container">
+  <div class="header__inner">
+  <div class="logo">
+    <a href="index.html">
+      <img src="img/logo.svg" alt="logo">
+    </a>
+  </div>
+  <div class="navigation">
+
+    <input type="checkbox" class="toggle-menu">
+    <div class="hamburger"></div>
+    <ul class="menu">
+      <li><a href="women.html">women</a></li>
+      <li><a href="men.html">men</a></li>
+      <li><a href="children.html">children</a></li>
+      <li><a href="models.html">model 30+</a></li>
+      <li><a href="school.html">school</a></li>
+      <li><a href="become-a-model.html">become a model</a></li>
+      <li><a href="production.html">production</a></li>
+      <li><a href="about-us.html">about us</a></li>
+      <li><a href="contacts.html">contacts</a></li>
+      <li class="nav__item list__item-social"><a href="https://www.instagram.com/art_models_krd/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li class="nav__item list__item-social"><a href="https://vk.com/art_models/" target="_blank"><i class="fab fa-vk"></i></a></li>
+    </ul>
+  </div>
+  </div>
+</div>
+</header>
+
+<!-- Header // -->
+
+
+
+
+		<main class="main">
+			<div class="container container be-model">
+  <section class="section-beamodel">
+    <div class="about-title">
+      <h1>Хочешь быть моделью?</h1>
+      <p class="about-subtitle">Пожалуйста, заполни анкету</p>
+    </section>
+    <section id="be_a_model_form">
+      <div class="row">
+        <div class="anketa">
+        </div>
+            <form method="post" class="form-horizontal" id="BeAModel"  enctype="multipart/form-data" novalidate  >
+              <input type="hidden" name="formid" value="BeAModel">
+                <div class="wrapper-beamodel">
+                  <div class="form-group position-relative">
+                    <label class="control-label" for="model_fname">Имя</label>
+                      <div class="form-description">
+                        <input type="text" name="model_fname" value class="form-control _req" id="model_fname" placeholder="Наташа">
+                        <span class="error">Поле обязательное для заполнения</span>
+                      </div>
+                  </div>
+                  <div class="form-group position-relative">
+                    <label class="control-label" for="model_lname">Фамилия</label>
+                      <div class="form-description">
+                        <input type="text" name="model_lname" value class="form-control _req" id="model_lname" placeholder="Петрова">
+                        <span class="error">Поле обязательное для заполнения</span>
+                      </div>
+                  </div>
+                  <div class="form-group position-relative">
+                    <label class="control-label" for="model_bdate">Дата рождения</label>
+                      <div class="form-description">
+                        <input type="text" name="model_bname" value class="form-control _req" id="model_bdate" placeholder="01.01.2000">
+                        <span class="error">Поле обязательное для заполнения</span>
+                      </div>
+                  </div> <div class="form-group position-relative">
+                    <label class="control-label" for="model_city">Город проживания</label>
+                      <div class="form-description">
+                        <input type="text" name="model_city" value class="form-control _req" id="model_city" placeholder="Краснодар">
+                        <span class="error">Поле обязательное для заполнения</span>
+                      </div>
+                  </div>  
+                  <div class="form-group position-relative">
+                    <label class="control-label" for="model_email">EMAIL</label>
+                      <div class="form-description">
+                        <input type="email" name="model_email" value class="form-control _req _email" id="model_email" placeholder="user@gmail.com">
+                        <span class="error">Укажите свой E-mail</span>
+                      </div>
+                  </div>
+                  <div class="form-group position-relative">
+                    <label class="control-label" for="model_phone">Контактный телефон</label>
+                      <div class="form-description">
+                        <input type="text" name="model_phone" value class="form-control _req" id="model_phone" placeholder="+7 861 944 4111">
+                        <span class="error">Укажите контактный Номер телефона</span>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label" for="model_inst">Ссылка на соцсети</label>
+                      <div class="form-description">
+                        <input type="text" name="model_inst" value class="form-control" id="model_inst" placeholder="Facebook, Instagram, VK">
+                        <span class="error"></span>
+                      </div>
+                  </div>
+              
+          <!-- Дополнительные данные -->
+                
+          <div class="form-group margin-top-40">
+            <label class="control-label" for="model_height">Рост</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_height" name="model_height" placeholder="175">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="model_bust">Обьем груди</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_bust" name="model_bust" placeholder="90">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="model_waist">Обьем талии</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_waist" name="model_waist" placeholder="60">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="model_hips">Обьем бедер</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_hips" name="model_hips" placeholder="90">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="model_shoes">Размер обуви</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_shoes" name="model_shoes" placeholder="36">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="model_eyes">Цвет глаз</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_eyes" name="model_eyes" placeholder="голубые">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="model_hair">Цвет волос</label>
+              <div class="form-description">
+                <input type="text" value class="form-control" id="model_hair" name="model_hair" placeholder="брюнетка">
+              </div>
+          </div>
+           
+          <!-- Секция Фото -->
+
+          <div class="row margin-bottom-10">
+            <div class="model-photos">
+              <h5 margin-bottom-30>
+                Вложите свои 3 фото и убедитесь что фотографии не больше чем 3MB каждая.
+                <br>
+                В противном случае ваша анкета не сможет быть отправлена. 
+              </h5>
+              <div class="row-photos">
+                <div class="model-photo">
+                  <div class="join-uploud">
+                    <div class="join-image">
+                      <img src="img/headshot.jpg" class="formPreview1" data-large="/img/headshot.jpg" data-placeholder="/img/headshot.jpg" alt="Headshot">
+                      <div class="join-image-overlay">
+                        <div class="join-image-title">Пример фотографии</div>
+                      </div>
+                    </div>
+                    <div class="file-upload error">
+                      <input type="file" accept=".jpg, .png, .gif" name="upload1" class="form-control _req" id="upload1">
+                      <span class="error">Фото Профиль</span>
+                      <span class="upload-dummy placeholder form-control">Загрузить</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="model-photo">
+                  <div class="join-uploud">
+                    <div class="join-image">
+                      <img src="img/profile.jpg" class="formPreview2" data-large="/img/profile.jpg" data-placeholder="/img/profile.jpg" alt="Profile">
+                      <div class="join-image-overlay">
+                        <div class="join-image-title">Пример фотографии</div>
+                      </div>
+                    </div>
+                    <div class="file-upload error">
+                      <input type="file" accept=".jpg, .png, .gif" name="upload2" class="form-control _req" id="upload2">
+                      <span class="error">Фото Анфас</span>
+                      <span class="upload-dummy placeholder form-control">Загрузить</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="model-photo">
+                  <div class="join-uploud">
+                    <div class="join-image">
+                      <img src="img/fulllength.jpg" class="formPreview3" data-large="/img/fulllength.jpg" data-placeholder="/img/fulllength.jpg" alt="fulllength">
+                      <div class="join-image-overlay">
+                        <div class="join-image-title">Пример фотографии</div>
+                      </div>
+                    </div>
+                    <div class="file-upload error">
+                      <input type="file" accept=".jpg, .png, .gif" name="upload3" class="form-control _req" id="upload3">
+                      <span class="error">Фото Во Весь рост</span>
+                      <span class="upload-dummy placeholder form-control">Загрузить</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="button-upload">
+                <div class="button-center">
+                  <button type="submit" class="btn-u btn-u-color">
+                    Отправить анкету
+                    <i class="fa fa-envelope"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+                              
+            </form>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="modal-container">
+    <div class="row">
+      <div class="modalbox success col-sm-8 col-md-6 col-lg-5 center animate" style="display: none;">
+        <div class="icon">
+          <span  class="fas fa-check"></span>
+        </div>
+        <!--/.icon-->
+        <h1>Success!</h1>
+        <p>We've sent a confirmation to your e-mail</p>
+        <button type="button" class="redo btn">Ok</button>
+      </div>
+      <!--/.success-->
+    </div>
+    <!--/.row-->
+    <div class="row">
+      <div class="modalbox error col-sm-8 col-md-6 col-lg-5 center animate" style="display: none;">
+        <div class="icon">
+          <span><i class="fas fa-times"></i></span>
+        </div>
+        <!--/.icon-->
+        <h1>Oh no!</h1>
+        <p>Oops! Something went wrong!</p>
+        <button type="button" class="redo btn">Try again</button>
+      </div>
+      <!--/.success-->
+    </div>
+    <!--/.row-->
+  </div>
+		</main>
+		
+<footer class="footer">
+<a class="phone-footer" href="tel:+7 918 381 0550">
+			<i class="fa fa-phone"></i>
+			+7  918 381 0550		
+		</a>
+
+	<p style="color:var(--color-white)">© ARTMODELS</p>
+
+	<a class="phone-footer" href="tel:+7 964 919 2581">
+		<i class="fa fa-phone"></i>
+			+7 964 919 2581
+	</a>
+
+</footer>
+
+		
+  </div>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="js/vendor.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
